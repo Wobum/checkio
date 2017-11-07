@@ -9,3 +9,6 @@ def checkio(data):
 	for k,v in a.items():
 		if v == max:
 			return k
+'''def most_frequent(data):
+	c = Counter(data)
+    return c.most_common()[0][0]
