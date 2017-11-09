@@ -11,14 +11,10 @@ def checkio(date1,date2):
 def Rotate(matrix):
 	l = []
 	l1 = []
-	l2 = [0,0,0,0]
-	l3 = [l2.l2,l2,l2]
 	for i in range(len(matrix)):
 		list1 = list(matrix[i])
 		l.append(list1)
-	for i in range(len(l)):	
-		for j in range(len(l[i])):
-			l3[i][j] = l[j][len(l[i])-i]
+	l2 = zip(*l[::-1])
 	for i in l3:
 		f = ''.join(i)
 		l1.append(f)
